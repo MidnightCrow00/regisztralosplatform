@@ -1,0 +1,21 @@
+body{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(9b24bd7b8487deeaa152fab71ab5d9d3.jpg);
+}
+main{
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #181618;
+}
+article{
+    padding: 10px;
+}
+aside{
+    padding: 10px;
+}
+header{
+    padding: 10px;
+}
