@@ -25,9 +25,9 @@ background-image: url(9b24bd7b8487deeaa152fab71ab5d9d3.jpg);">
                     <h2>Bejelentkezés</h2>
                     <form action="kezdolap.html">
                         <label for="fname">Felhasználó név:</label><br>
-                        <input type="text" id="username" name="username" placeholder="Felhasználónév"><br>
+                        <input type="text" id="username" name="username" placeholder="Felhasználónév" required><br>
                         <label for="lname">Jelszó:</label><br>
-                        <input type="password" id="pwd" name="pwd" placeholder="Jelszó"><br><br>
+                        <input type="password" id="pwd" name="pwd" placeholder="Jelszó" required><br><br>
                         <input type="submit" value="Bejelentkezés">
                       </form> 
             </div>
@@ -37,13 +37,13 @@ background-image: url(9b24bd7b8487deeaa152fab71ab5d9d3.jpg);">
                 <h2>Regisztráció</h2>
                 <form action="kezdolap.html">
                     <label for="fname">Felhasználónév:</label><br>
-                    <input type="text" id="username" name="username" placeholder="Felhasználónév"><br>
+                    <input type="text" id="username" name="username" placeholder="Felhasználónév" required><br>
                     <label for="fname">Email:</label><br>
-                    <input type="text" id="email" name="email" placeholder="valaki@gmail.com"><br>
+                    <input type="text" id="email" name="email" placeholder="valaki@gmail.com" required><br>
                     <label for="lname">Jelszó:</label><br>
-                    <input type="password" id="pwd" name="pwd" placeholder="Jelszó"><br>
+                    <input type="password" id="pwd" name="pwd" placeholder="Jelszó" minlength="8" required><br>
                     <label for="lname">Jelszó megerősítése:</label><br>
-                    <input type="password" id="pwd" name="pwd" placeholder="Jelszó"><br><br>
+                    <input type="password" id="pwd_m" name="pwd-m" placeholder="Jelszó" minlength="8" required><br><br>
                     <input type="submit" value="Regisztráció">
                 </form>
             </div> 
